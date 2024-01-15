@@ -1,0 +1,9 @@
+res://input_reader.tscn
+res://test_scene.tscn
+res://InputReader.gd
+res://reader.gd
+res://Label.gd
+res://InputObject.gd
+res://Label2.gd
+res://RichTextLabel.gd
+res://Label3.gd
