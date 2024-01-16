@@ -8,6 +8,6 @@ func _physics_process(delta):
 		inputReader.buffer[0].held_frame_count += 1
 	else:
 		if inputReader.buffer.size() > 0:
-			self.text = inputReader.buffer[0].frames_to_string()
+			self.text = inputReader.buffer[0].get_held_frames_string()
 	
 	

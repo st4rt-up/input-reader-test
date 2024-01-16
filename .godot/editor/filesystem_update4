@@ -7,3 +7,4 @@ res://InputObject.gd
 res://Label2.gd
 res://RichTextLabel.gd
 res://Label3.gd
+res://HBoxContainer.gd
