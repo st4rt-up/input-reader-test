@@ -1,0 +1,12 @@
+[gd_scene load_steps=3 format=3 uid="uid://ctiteuwn5u8fn"]
+
+[ext_resource type="Script" path="res://classes/InputReader.gd" id="1_y5ftt"]
+[ext_resource type="Script" path="res://classes/InputBuffer.gd" id="2_h3256"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="InputReader" type="Node" parent="."]
+script = ExtResource("1_y5ftt")
+
+[node name="InputBuffer" type="Node" parent="."]
+script = ExtResource("2_h3256")

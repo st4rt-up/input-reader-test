@@ -1,10 +1,9 @@
 res://input_reader.tscn
-res://test_scene.tscn
-res://InputReader.gd
-res://reader.gd
-res://Label.gd
+res://classes/ButtonObj.gd
+res://classes/InputBuffer.gd
+res://classes/DirectionObj.gd
 res://InputObject.gd
-res://Label2.gd
-res://RichTextLabel.gd
-res://Label3.gd
-res://HBoxContainer.gd
+res://classes/InputObject2.gd
+res://classes/MoveSelector.gd
+res://classes/InputReader.gd
+res://node_2d.tscn
