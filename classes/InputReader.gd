@@ -9,7 +9,6 @@ var right: String = "game_right"
 var facing_right: bool
 
 # creates a buffer object and stores it
-#
 
 func get_direction_numpad() -> int:
 	var direction = Vector2(0,0)
