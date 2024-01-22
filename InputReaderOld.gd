@@ -1,4 +1,4 @@
-class_name InputReader
+# class_name InputReader
 extends Node2D
 
 var BUFFER_MAX_SIZE = 15
@@ -20,7 +20,7 @@ var down: String = "game_down"
 var left: String = "game_left"
 var right: String = "game_right"
 
-func _physics_process(delta) -> void:
+func _physics_process(_delta) -> void:
 	this_frame = InputObject.new()
 	this_frame.dir = get_dir()
 	
@@ -33,7 +33,6 @@ func _physics_process(delta) -> void:
 		buffer.insert(0, this_frame)
 		
 		
-	
 	# MORE TESTING DEBUG CODE	
 	label_input.text = buffer_to_string()
 	buffer_display.update_display(buffer.slice(0, 7))
@@ -213,10 +212,12 @@ func _check_charge_input(charge_input_string: String, release_input_string: Stri
 	var counter = 0
 	var total_frames = 0
 	
+	"
 	for input in recent:
 		if counter == 0:
-			if input.get_dir_numpad()
-			if counter != 1: return false
-
+			pass
+			# if input.get_dir_numpad()
+			# if counter != 1: return false
+	"
 	
 	return false

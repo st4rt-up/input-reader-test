@@ -1,3 +1,4 @@
+extends Node
 class_name InputBuffer
 
 # only creates the buffer, then passes it to a MoveSelector class
@@ -13,6 +14,8 @@ var facing_right: bool = true
 
 func _physics_process(_delta) -> void:
 	this_frame = InputObject.new()
+	
+	# this line should be in input reader
 	this_frame.dir = input_reader.get_direction_numpad()
 	
 	# buffer[0] is the most recent input

@@ -1,6 +1,8 @@
 extends Node
 class_name InputReader
 
+@export var input_buffer: InputBuffer
+
 var up: String = "game_up"
 var down: String = "game_down"
 var left: String = "game_left"
@@ -8,7 +10,9 @@ var right: String = "game_right"
 
 var facing_right: bool
 
-# creates a buffer object and stores it
+# takes a buffer and stores inputs in it
+
+# take absolute inputs and turn into relative directions
 
 func get_direction_numpad() -> int:
 	var direction = Vector2(0,0)

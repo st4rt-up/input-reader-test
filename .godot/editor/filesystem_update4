@@ -1,9 +1,4 @@
-res://input_reader.tscn
-res://classes/ButtonObj.gd
-res://classes/InputBuffer.gd
-res://classes/DirectionObj.gd
-res://InputObject.gd
-res://classes/InputObject2.gd
-res://classes/MoveSelector.gd
-res://classes/InputReader.gd
 res://node_2d.tscn
+res://classes/InputReader.gd
+res://InputReaderOld.gd
+res://classes/InputBuffer.gd
