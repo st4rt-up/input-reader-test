@@ -5,8 +5,9 @@
 
 [node name="Node2D" type="Node2D"]
 
-[node name="InputReader" type="Node" parent="."]
+[node name="InputReader" type="Node" parent="." node_paths=PackedStringArray("input_buffer")]
 script = ExtResource("1_y5ftt")
+input_buffer = NodePath("../InputBuffer")
 
 [node name="InputBuffer" type="Node" parent="." node_paths=PackedStringArray("input_reader")]
 script = ExtResource("2_h3256")

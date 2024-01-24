@@ -70,3 +70,7 @@ func equals(directionObj: DirectionObj) -> bool:
 	var equal: bool = directionObj.direction == self.direction
 	
 	return equal
+
+func _to_string() -> String:
+	# implement later
+	return ""

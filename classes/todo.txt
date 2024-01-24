@@ -1,0 +1,28 @@
+TO DO:
+
+- [ ] implement to_string methods on:
+	ButtonObj
+	DirectionObj
+	InputBuffer
+	InputObject
+
+- [ ] implement check_input methods in MoveSelector
+
+- [ ] implement getters in DirectionObj
+
+- [ ] implement input visualization
+
+
+FAR TO DO:
+	
+- [ ] create a test character with dummy moves as a proof of concept
+
+
+general roadmap:
+	
+finish systems
+finish 3-4 characters
+implement menus
+UX pass
+playtesting
+systems pass
